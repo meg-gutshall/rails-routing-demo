@@ -1,1 +1,11 @@
-<h1>WELCOME!!!</h1>
+<h1>Welcome to your Music Library!</h1>
+<!-- Add link to see songs here -->
+
+
+<%= form_tag("/say-something", method: "post") do %>
+  <%= label_tag(:phrase, "Say something") %>
+  <%= text_field_tag(:phrase) %>
+  <%= submit_tag("Say it!") %>
+<% end %>
+
+<h2><%= @thing %></h2>

@@ -1,1 +1,21 @@
-<h1>All the Songs!<h1>
+<h1>All the Songs!</h1>
+
+<ul>
+  <!-- <li>URL: songs_url</li>
+  <li>PATH: songs_path</li> -->
+  <%= link_to "Index", songs_path %>
+</ul>
+
+<ul>
+<% @songs.each do |song| %>
+  <ul>
+    <li><b><i><%=song.title%></i></b> by <b><%=song.artist.name%></b></li>
+    <ul>
+    </ul>
+    <!-- Add link to song show page here -->
+  </ul>
+<% end %>
+</ul>
+
+
+<!-- New Song Form -->
