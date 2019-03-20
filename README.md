@@ -1,24 +1,20 @@
-# README
+# Rails Routing Playground
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](http://forthebadge.com/images/badges/made-with-ruby.svg)
 
-Things you may want to cover:
+Made with Ruby on Rails
 
-* Ruby version
+This is a demo app for teaching purposes.
 
-* System dependencies
+## Installation
+To have a closer look, clone down the repo and cd into the directory:
+- `cd kitties-react`
 
-* Configuration
 
-* Database creation
+Then to get it all going:
+- `bundle install`
+- `rake db:migrate`
+- `rake db:seed`
+- `rails s`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Now you can navigate to the location shown (usually http://localhost:3000/) and enjoy!
