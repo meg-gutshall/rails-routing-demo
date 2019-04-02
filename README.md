@@ -8,7 +8,7 @@ This is a demo app for teaching purposes.
 
 ## Installation
 To have a closer look, clone down the repo and cd into the directory:
-- `cd kitties-react`
+- `cd rails-routing-demo`
 
 
 Then to get it all going:
